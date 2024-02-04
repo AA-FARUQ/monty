@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * f_nop - Represents a no-operation function.
- * @stack: Pointer to the stack's head.
- * @line_number: Line number in the Monty file.
+ * f_nop - nothing
+ * @head : stack head.
+ * @counter : Line number
  * Return: No return value.
  */
-void f_nop(stack_t **stack, unsigned int line_number)
+void f_nop(stack_t **head, unsigned int counter)
 {
-	(void)line_number;
-	(void)stack;
+	(void) counter;
+	(void) head;
 }
