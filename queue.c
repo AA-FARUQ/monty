@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * set_queue_mode - Sets the queue mode.
+ * f_queue - Sets the queue mode.
  * @stack: Pointer to the stack's head.
  * @line_number: Line number in the Monty file (unused).
  * Return: No return value.
  */
-void set_queue_mode(stack_t **stack, unsigned int line_number)
+void f_queue(stack_t **stack, unsigned int line_number)
 {
     (void)stack;
     (void)line_number;
@@ -14,12 +14,12 @@ void set_queue_mode(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * enqueue_node - Adds a node to the tail of the stack.
+ * addqueue - Adds a node to the tail of the stack.
  * @new_value: New value to be added.
  * @stack: Pointer to the stack's head.
  * Return: No return value.
  */
-void enqueue_node(stack_t **stack, int new_value)
+void addqueue(stack_t **stack, int new_value)
 {
     stack_t *new_node, *current_node;
 

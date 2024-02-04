@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * perform_division - Divides the 2nd element by the top element in the stack.
+ * f_div - Divides the 2nd element by the top element in the stack.
  * @stack: Pointer to the stack's head.
  * @line_number: Line number in the Monty file.
  * Return: No return value.
  */
-void perform_division(stack_t **stack, unsigned int line_number)
+void f_div(stack_t **stack, unsigned int line_number)
 {
 	stack_t *current_node;
 	int stack_length = 0, result;

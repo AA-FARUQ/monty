@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * add_top_two - Adds the top two elements of the stack.
+ * f_add - Adds the top two elements of the stack.
  * @stack: Pointer to the stack's head.
  * @line_number: Line number in the Monty file.
  * Return: No return value.
  */
-void add_top_two(stack_t **stack, unsigned int line_number)
+void f_add(stack_t **stack, unsigned int line_number)
 {
 	stack_t *current_node;
 	int stack_length = 0, sum;

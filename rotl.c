@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * rotate_stack_left - Rotates the stack to the top.
+ * f_rotl - Rotates the stack to the top.
  * @stack: Pointer to the stack's head.
  * @counter: Line number in the Monty file (unused).
  * Return: No return value.
  */
-void rotate_stack_left(stack_t **stack, __attribute__((unused)) unsigned int counter)
+void f_rotl(stack_t **stack, __attribute__((unused)) unsigned int counter)
 {
     stack_t *current_node = *stack, *next_node;
 

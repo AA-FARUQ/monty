@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * swap_top_two - Swaps the top two elements of the stack.
+ * f_swap - Swaps the top two elements of the stack.
  * @stack: Pointer to the stack's head.
  * @line_number: Line number in the Monty file.
  * Return: No return value.
  */
-void swap_top_two(stack_t **stack, unsigned int line_number)
+void f_swap(stack_t **stack, unsigned int line_number)
 {
 	stack_t *current_node;
 	int stack_length = 0, temp_value;

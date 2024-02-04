@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * compute_modulus - Calculates the remainder of the division of the second
+ * f_mod - Calculates the remainder of the division of the second
  * element by the top element in the stack.
  * @stack: Pointer to the stack's head.
  * @line_number: Line number in the Monty file.
  * Return: No return value.
  */
-void compute_modulus(stack_t **stack, unsigned int line_number)
+void f_mod(stack_t **stack, unsigned int line_number)
 {
     stack_t *current_node;
     int stack_length = 0, result;

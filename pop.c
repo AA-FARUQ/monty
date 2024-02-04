@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * pop_element - Removes the top element from the stack.
+ * f-pop - Removes the top element from the stack.
  * @stack: Pointer to the stack's head.
  * @line_number: Line number in the Monty file.
  * Return: No return value.
  */
-void pop_element(stack_t **stack, unsigned int line_number)
+void f_pop(stack_t **stack, unsigned int line_number)
 {
 	stack_t *current_node;
 
